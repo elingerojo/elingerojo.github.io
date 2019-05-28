@@ -7,9 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { WiredBase, customElement, property, html, css } from '../wired-lib/lib/wired-base.js';
-import { ellipse, line, rectangle } from '../wired-lib/lib/wired-lib.js';
-;
+
 // GLOBAL CONSTANTS
 const SECOND = 1000;
 const MINUTE = SECOND * 60;
