@@ -7,8 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { WiredBase, customElement, property, html, css } from 'wired-lib/lib/wired-base';
-import { ellipse, line, rectangle } from 'wired-lib';
+import { WiredBase, customElement, property, html, css } from '../wired-lib/lib/wired-base';
+import { ellipse, line, rectangle } from '../wired-lib/lib/wired-lib';
 ;
 // GLOBAL CONSTANTS
 const SECOND = 1000;
@@ -180,7 +180,7 @@ let WiredCalendar = class WiredCalendar extends WiredBase {
             .map((weekDays) => html `<tr style="height:${this.tblRowHeight}px;">
               ${ /* Loop thru weeekdays in each week building one data cell `<td>` for each day */''}
               ${weekDays
-            .map((d) => 
+            .map((d) =>
         // This blank space left on purpose for clarity
         html `${d.selected ?
             // Render "selected" cell
